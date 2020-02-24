@@ -1,0 +1,426 @@
+/* navigation  */
+div.caption > h5 {
+  margin: 1rem 0;
+}
+.btn.btn-outline-light.btn-rounded.btn-md {
+  border-radius: 35px;
+}
+.btn.btn-outline-light.btn-rounded.btn-lg {
+  border-radius: 35px;
+  background: white;
+  color: #24bdc9;
+} 
+.navbar-nav li {
+  padding-right: .7rem;
+}
+
+.home-inner {
+  background-image: url('../images/full-moon.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+@media ( max-width: 768px) {
+  .caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 18%;
+    right: 0;
+    left: 0;
+    color: white;
+    text-align: center;
+  }
+  a.navbar-brand {
+    font-weight: 700;
+    line-height: 1;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+}
+@media ( min-width: 769px) {
+  .caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 18%;
+    right: 0;
+    left: 12%;
+    color: white;
+  }
+  a.navbar-brand {
+    font-weight: 700;
+    line-height: 1;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+}
+@media ( min-width: 1200px ) {
+  .caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 18%;
+    right: 0;
+    left: 12%;
+    color: white;
+  }
+  a.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1;
+    font-size: 20px;
+    margin-left: 12rem;
+  }
+  ul.navbar-nav {
+    margin-right: 12rem;
+  }
+  .btn.btn-outline-light.btn-rounded.btn-md {
+    border-radius: 35px;
+  }
+}
+.btn.btn-outline-light.btn-rounded.btn-lg {
+  font-size:15px; 
+  margin-top: 10px;
+  padding: 1rem 1.5rem;
+  font-weight: bold;
+}
+div.caption {
+  margin-top: 1.5rem;
+}
+div.caption > h1 {
+  font-weight: bold;
+}
+div.caption > h5 {
+  font-size: 1.4rem;
+}
+button.navbar-toggler {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* end of navigation */
+
+/* services section */
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1 {
+  font-size: 2.4rem;
+  text-align: center;
+}
+.narrow p {
+  text-align: center;
+}
+.jambotron {
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
+}
+.offset::before {
+  display: block;
+  content: "";
+}
+div.row.text-center {
+  margin-top: 4rem;
+}
+div.services-icon {
+  margin-top: 4rem;
+}
+div.services-icon > p {
+  font-size: 20px;
+}
+div.services-icon > i {
+  margin-bottom: 2rem;
+}
+/* end of services section */
+
+/* pricing plans */
+@media (max-width: 575px) {
+  div.pricing-plans {
+    width: 100%;
+    margin: 1.5rem auto;
+    background: #fff;
+  }
+  button.btn.btn-primary.pricing-plans-get-started {
+    border-radius: 50px;
+    padding: 17px 110px;
+    background-color:#fff;
+    border: 2px solid #fff;
+    color: #24bdc9;
+    margin-bottom: 1.5rem;
+  }
+  div.card {
+    border:none;
+    background: #daf6f8;
+    margin-bottom: 2rem;
+    padding: 0;
+    margin: 0;
+  }
+  div.col-md-3.col-lg-3.pricing-plans-child-div {
+    background: white;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media(min-width: 702px) {
+  div.pricing-plans {
+    width: 80%;
+    margin: 1.5rem auto;
+    background: #fff;
+  }
+  button.btn.btn-primary.pricing-plans-get-started {
+    border-radius: 50px;
+    padding: 17px 50px;
+    background-color:#fff;
+    border: 2px solid #fff;
+    color: #24bdc9;
+    margin-bottom: 1.5rem;
+  }
+  div.card {
+    border:none;
+    background: #daf6f8;
+    margin-bottom: 2rem;
+  }
+  div.col-md-3.col-lg-3.pricing-plans-child-div {
+    background: white;
+  }
+}
+
+.pricing-plans-div-narrow {
+  padding: 3rem;
+  padding-top: 0;
+}
+.pricing-plans-div-narrow h1 {
+  font-size: 2.4rem;
+  text-align: center;
+}
+.pricing-plans-div-narrow p {
+  text-align: center;
+}
+h2.pricing-plans-h2 {
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    padding: 12px 20px;
+    background: #24bdc9;
+    margin-bottom: 40px;
+    color: #fff;
+    border-radius: 0px 0px 10px 10px;
+    display: inline-block; 
+}
+
+div.card {
+  border:none;
+  background: #daf6f8;
+  margin-bottom: 2rem;
+}
+div.pricing-plans-block{
+  margin-bottom: 30px;
+  padding: 0 30px 30px 30px;
+}
+sup {
+  font-size: 20px;
+}
+sup {
+  top: -.9em;
+}
+span.pricing-plans-child-price {
+  font-size: 40px;
+}
+/* end of pricing plans div */
+
+/* some-fan-facts */
+div.some-fan-facts {
+  background: linear-gradient(135deg, #2ebdc4 0%, #68e5b2 100%);
+  padding: 6rem;
+}
+
+.some-fan-facts-narrow h1 {
+  font-size: 2.4rem;
+  text-align: center;
+}
+.some-fan-facts-narrow p {
+  text-align: center;
+}
+div.col-md-3.fan-facts-child-div {
+  padding-top: 4rem;
+}
+/* end of some fan facts */
+
+/* how-three-buttons */
+div.col-12.col-md-6.col-lg-6.pt-5.text-left.how-it-works.paragraph {
+  padding:0;
+  margin-top: 0;
+}
+
+@media ( max-width: 575px) {
+  div.col-12.col-md-6.col-lg-6.text-left.how-it-works.image {
+    margin: 0;
+    padding: 0;
+  }
+  button.btn.btn-success.how-it-works-button {
+    margin-left: 10px;
+    border-radius: 50px;
+    padding: 10px 90px 10px 90px;
+    font-size: 20px;  
+    margin-bottom: 2px;
+  }
+  div.how-it-works {
+    padding-bottom: 3rem;
+    margin:0 0 0 0;
+    background: grey;
+  }
+  div.col-12.col-md-6.col-lg-6.pt-5.text-left.how-it-works.paragraph {
+    padding:0;
+    margin-top: 0;
+  }
+}
+
+@media ( min-width: 992px) {
+  div.how-it-works {
+    padding: 3rem 0rem;
+    background: whitesmoke;
+  }
+  div.col-12.col-md-6.col-lg-6.text-left.how-it-works.image {
+    margin: 0;
+    padding: 3rem;
+  }
+  button.btn.btn-success.how-it-works-button {
+    margin-top: 6rem;
+    margin-left: 10px;
+    margin-bottom: 4rem;
+    border-radius: 50px;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;  
+  }
+  div.col-12.col-md-6.col-lg-6.pt-5.text-left.how-it-works.paragraph {
+    margin-top: 3rem;
+  }
+
+}
+
+/* end of how three buttons */
+
+/* get domain */
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.mb-5, .my-5 {
+  margin-bottom: 3rem !important;
+}
+.mt-5, .my-5 {
+  margin-top: 3rem !important;
+}
+.domain-form .form-group {
+  border: 1px solid #9ff0c8;
+  padding: 20px;
+  border-radius: 10px;
+}
+.form-control {
+    height: 60px !important;
+    background: #fff !important;
+    color: #3a4348 !important;
+    font-size: 18px;
+    border-radius: 0px;
+    box-shadow: none !important;
+}
+.text-center {
+  text-align: center !important;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.search-domain.btn.btn-primary.px-5 {
+  background: #22d47b;
+  border: 2px solid #22d47b;
+}
+@media (max-width: 767.98px) {
+.domain-form .form-group .search-domain {
+    display: block;
+    width: 100%;
+    height: 60px !important;
+  }
+  .domain-form .form-group .search-domain {
+      background: #22d47b;
+      border: 2px solid #22d47b;
+      color: #fff;
+      border-radius: 0;
+  }
+}
+/* end of get domain */
+
+/* scribe */
+.ftco-section-parallax .parallax-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  padding: 10em 0;
+  background: linear-gradient(135deg, #2ebdc4 0%, #68e5b2 100%);
+}
+
+.subscribe-form .form-group input {
+  padding-right: 20px 50px;
+  background: transparent !important;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 30px;
+}
+/* end of scribe */
+
+/* blog */
+
+
+@media (max-width: 576.98px) {
+  div.row.blog-photo {
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+  }
+  div.blog {
+    width: 100%;
+    padding: 1rem;
+  }
+  div.blog-card.col-12.col-lg-4.col-md-4{
+    background: #22d47b;
+  } 
+  div.new {
+    background: whitesmoke;
+  }
+}
+
+
+
+@media (min-width: 1100px) {
+  div.row.blog-photo {
+    width: 80%; 
+    margin: auto;
+  }
+  div.blog {
+    width: 100%;
+    padding: 7rem;
+  }
+
+  div.new {
+    background: whitesmoke;
+    box-shadow: #9ff0c8'
+  }
+  div.recent-blog.text-center {
+    margin-bottom: 6rem;
+  }
+  h6.recent-h6 {
+    margin-bottom: 4px;
+  }
+}
+/* end of blog */
+
